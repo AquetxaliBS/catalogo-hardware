@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {"source": "/api/procesadores", "destination": "http://54.211.182.99:8000/procesadores"},
+    {"source": "/api/tarjetas-graficas", "destination": "http://50.17.68.164:5000/tarjetas-graficas"}
+  ]
+}
